@@ -1,8 +1,8 @@
+import { Picker } from '@react-native-picker/picker';
+import isEqual from 'lodash.isequal';
+import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Keyboard, Modal, Platform, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import PropTypes from 'prop-types';
-import isEqual from 'lodash.isequal';
-import { Picker } from '@react-native-picker/picker';
 import { defaultStyles } from './styles';
 
 export default class RNPickerSelect extends PureComponent {
